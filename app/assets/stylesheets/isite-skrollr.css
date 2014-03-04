@@ -1,0 +1,60 @@
+#layer {
+  -skrollr-animation-name:LAYER_ANIMATE;  
+}
+
+#InterLink {
+  -skrollr-animation-name:INTERLINK_ANIMATE2;
+}
+#Text1 {
+  -skrollr-animation-name:TEXT1_ANIMATE;
+}
+#Text2 {
+  -skrollr-animation-name:TEXT2_ANIMATE;
+}
+
+@-skrollr-keyframes LAYER_ANIMATE {
+  0 {      
+      background-color:rgb(0,0,30)
+  }
+  2000 {
+      background-color:rgb(0,0,30)
+  }
+}
+
+@-skrollr-keyframes INTERLINK_ANIMATE2 {
+  0 {
+      color:rgb(255,255,255);
+      font-size: 20px;
+      letter-spacing:10px;      
+      opacity: 1;
+      left: 50%;
+      top: 100px;
+  }
+  400 {
+      color:rgb(255,255,255);
+      transform:rotate(0deg);
+      font-size: 30px;
+      left: 48%;
+  }  
+}
+
+@-skrollr-keyframes TEXT1_ANIMATE {
+  500 {
+    opacity: 0;
+    margin-left: -270px;
+  }
+  600 {
+    opacity: 1;
+    margin-left: -300px;
+  }
+}
+@-skrollr-keyframes TEXT2_ANIMATE {
+  500 {
+    opacity: 0;
+    margin-left: 150px;
+  }
+  600 {
+    opacity: 1;
+    margin-left: 180px;
+  }
+}

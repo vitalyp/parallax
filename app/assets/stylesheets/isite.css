@@ -1,0 +1,75 @@
+#layer {
+  height: 100%;
+}
+#InterLink {
+  position: fixed;
+  left: 50%;
+  right: auto;  
+  top: 100px;  
+  margin-left: -150px;
+}
+#Text1 {
+  color: yellow;
+  opacity: 0;
+
+  position: fixed;
+  left: 50%;
+  right: auto;  
+  top: 150px;  
+  margin-left: -270px;
+}
+#Text2 {
+  color: yellow;
+  opacity: 0;
+
+  position: fixed;
+  left: 50%;
+  right: auto;  
+  top: 150px;  
+  margin-left: 150px;
+}
+
+
+#Project1 {
+  position: fixed;
+  opacity: 0;
+}
+#Project2 {
+  position: fixed;
+  opacity: 0;
+}
+#Project3 {
+  position: fixed;
+  opacity: 0;
+}
+#Project4 {
+  position: fixed;
+  opacity: 0;
+}
+.joy {
+  opacity: 0;
+}
+
+/*
+
+#POSTER_TITLE {
+  display: block;  
+  left: 50%; 
+  right: auto;
+  margin-left: -350px;
+  
+  position: absolute;
+}
+
+
+#ARTICLE_1 {
+  letter-spacing:10px;
+  transform:rotate(0deg);  
+  position: fixed;
+  left: 50%;
+  right: auto;  
+  top: 100px;  
+  margin-left: -250px;
+
+}
+*/
