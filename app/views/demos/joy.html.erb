@@ -1,0 +1,36 @@
+<% # AriekDev, InterLink, 2014!!. %>
+<% # Parallax Example %>
+<% content_for :head do %>
+  <title>buffering canvas drawing</title>
+  <a href="/assets/joystik.js">Script Source Code</a>
+  <p>ariekdev 2015 (c)</p>
+<% end %>
+<span class="buttonContInner" id="buttonCont-4fd7c9f23f2df02715000000">
+  <ul class="coolHandLuke">
+    <li>
+      <span class="red"> </span>
+      <a onclick="animationStop()">Stop</a>
+    </li>
+    <li>
+      <span class="green"> </span>
+      <a onclick="animationStart()">Proceed</a>
+    </li>
+    <li>
+      <span class="yellow"></span>
+      <a onclick="animateStep()">Step</a>
+    </li>
+  </ul>
+</span>
+
+<div id="spinner"></div>
+
+<div class="wrapper" id="full-content">
+  <div class="viewport" id="viewport">
+    <div class="viewport-inner" id="content">
+      <h1>Images Buffering and smooth Animation</h1>
+      
+      <canvas height="1144" id="canvas" width="1450"></canvas>
+      <img id="slideBuffer" style="display:none"/>
+    </div>
+  </div>
+</div>
