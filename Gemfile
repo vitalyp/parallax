@@ -24,6 +24,9 @@ gem 'jquery-rails'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 #gem 'jbuilder', '~> 1.2'
+#group :development do
+
+#end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -42,4 +45,4 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+gem 'sqlite3', group: [:development, :test]
