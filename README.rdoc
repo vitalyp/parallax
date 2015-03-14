@@ -1,17 +1,16 @@
 == .aliases
 
-```
-cd ~/workspace/parallax                                                                                                                                                                                                                       
-alias rvm="rvm gemset use parallax"                                                                                                                                                                                                           
-echo "HI ARIEKDEV!"                                                                                                                                                                                                                           
-alias push="git push origin master"                                                                                                                                                                                                           
-alias pull="git pull origin master; bundle;"                                                                                                                                                                                                  
-alias url="echo http://preview.pvkvedo0adr6bt9e0xqj4448ia4ibn6223es4o893sor.box.codeanywhere.com:3000"                                                                                                                                        
-alias fpush="git add .; git commit -m 'codeanywhereIdecommit'; git push origin master;"                                                                                                                                                       
-alias ss="rails s"                                                                                                                                                                                                                            
-echo "aliases: push, pull , url , fpush , ss , rvm"                                                                                                                                                                                           
-echo "(push to git, pull and bundle, get app web url , fast push with adding and committing, start server, load rvm"      
-```
+    cd ~/workspace/parallax                                                                                                                                                                                                                       
+    alias rvm="rvm gemset use parallax"                                                                                                                                                                                                           
+    echo "HI ARIEKDEV!"                                                                                                                                                                                                                           
+    alias push="git push origin master"                                                                                                                                                                                                           
+    alias pull="git pull origin master; bundle;"                                                                                                                                                                                                  
+    alias url="echo http://preview.pvkvedo0adr6bt9e0xqj4448ia4ibn6223es4o893sor.box.codeanywhere.com:3000"                                                                                                                                        
+    alias fpush="git add .; git commit -m 'codeanywhereIdecommit'; git push origin master;"                                                                                                                                                       
+    alias ss="rails s"                                                                                                                                                                                                                            
+    echo "aliases: push, pull , url , fpush , ss , rvm"                                                                                                                                                                                           
+    echo "(push to git, pull and bundle, get app web url , fast push with adding and committing, start server, load rvm"      
+
 
 == README
 This README would normally document whatever steps are necessary to get the
