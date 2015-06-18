@@ -5,7 +5,7 @@ var BUFFERING_CONTINUED = !(BUFFERING_FINISHED = true), ANIMATE_SPEED_MSEC = 80;
 var slideData = [],          // storage for Images pixels
     slideIndex = 0,          // set index ponter to first item
     slideCount = 47,
-    slideMask = "images/$.jpg",
+    slideMask = "assets/$.jpg",
     slideBuffer = document.getElementById("slideBuffer"),
     canvas = document.getElementById("canvas"),
     contextView = canvas.getContext("2d"),
