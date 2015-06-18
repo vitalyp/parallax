@@ -31,7 +31,7 @@ function loadNextImageToCanvas() {
   image = document.getElementById("joy")  
   convertImageToCanvas(image)
 
-  new_src="images/{image_index}.jpg".replace("{image_index}", image_index);
+  new_src="assets/{image_index}.jpg".replace("{image_index}", image_index);
   image.src = new_src;  
 }
 
