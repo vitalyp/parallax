@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
+
+#ruby '2.2.1' # <- not necessary to specify ruby for this tiny application
+
 gem 'rails', '4.0.2'
-gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
-#gem 'sass-rails'
-#gem 'uglifier'
 gem 'jquery-rails'
-gem 'tzinfo-data', platforms: [:x64_mingw,:mingw, :mswin]
+
+#gem 'tzinfo-data', platforms: [:x64_mingw,:mingw, :mswin] # FOR WINDOWS SYSTEMS
