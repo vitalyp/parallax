@@ -9,9 +9,9 @@
 
 == Using
 
-`$ git clone git clone https://github.com/vitalyp/parallax.git'
-`$ cd parallax`
-`$ bundle`
-`$ rails s`
+    $ git clone git clone https://github.com/vitalyp/parallax.git
+    $ cd parallax
+    $ bundle
+    $ rails s
 
-Navigate http://localhost:3000 to see the animation effects.
+*Congratulations!*
