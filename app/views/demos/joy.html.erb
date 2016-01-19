@@ -1,10 +1,10 @@
-<% # AriekDev, 2014. %>
-<% # Parallax Example %>
-<% content_for :head do %>
-  <title>buffering canvas drawing</title>
-  <a href="/assets/joystik.js">Script Source Code</a>
-  <p>ariekdev 2015 (c)</p>
-<% end %>
+<%# AriekDev, 2014-2016. %>
+<% content_for :head do %><% end %>
+
+<code>
+  Images are preloaded and cached by <a href="/assets/joystik.js">this script</a>. 
+</code>
+
 <span class="buttonContInner" id="buttonCont-4fd7c9f23f2df02715000000">
   <ul class="coolHandLuke">
     <li>
@@ -22,15 +22,23 @@
   </ul>
 </span>
 
+<hr/>
+
+<code>
+  Caching should be started after page is loaded. On errors, check the browser console logs.
+</code>
+
 <div id="spinner"></div>
 
 <div class="wrapper" id="full-content">
   <div class="viewport" id="viewport">
     <div class="viewport-inner" id="content">
-      <h1>Images Buffering and smooth Animation</h1>
-      
-      <canvas height="1144" id="canvas" width="1450"></canvas>
+      <canvas height="720px" id="canvas" width="1350"></canvas>
       <img id="slideBuffer" style="display:none"/>
     </div>
   </div>
 </div>
+
+<a href="https://github.com/vitalyp">
+  <code>ariekdev 2016 (c)</code>
+</a>

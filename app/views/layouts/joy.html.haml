@@ -1,0 +1,16 @@
+// layout for Joy ReactDraw effect: Image resources Preload. OnPage Draw optimization example
+!!!
+%html
+  %head
+    %title Joy ReactDraw
+    = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
+    = stylesheet_link_tag     params[:action]
+    = javascript_include_tag  params[:action]
+    = csrf_meta_tags
+    = yield :head
+    %script{src: "/assets/spin.min.js", type: "text/javascript"}
+  %body
+    = yield
+    %script{src: "/assets/spin.my.js", type: "text/javascript"}
+    %script{src: "/assets/joystik.js", type: "text/javascript"}
