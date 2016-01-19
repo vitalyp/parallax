@@ -1,7 +1,10 @@
-# IMG RESOURCES BUFFERING AND ANIMATION EXAMPLE __and__  PARALLAX EFFECT DEMONSTRATION
+## Image bufferring implementation for "smooth animation"
+## Parallax effect demonstration (in progress)
 
 * parallax in progress yet..
-* minimum gems required - any ruby/rails configuration should be appropriate..
+* images buffering is implemented by loading of each picture to invisible canvas objects, that dynamically allocated
+* project uses minimal gems (3 gems) - any ruby/rails configuration should be appropriated.. just in case, I use Rails 4.2.5 with ruby 2.3.0 now.
+
 
 
 == Using
