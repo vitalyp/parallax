@@ -70,6 +70,8 @@ GEM
     minitest (5.8.3)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.7.1-x86-mingw32)
+      mini_portile2 (~> 2.0.0.rc2)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -113,14 +115,18 @@ GEM
     tilt (2.0.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2016.4)
+      tzinfo (>= 1.0.0)
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   haml-rails
   jquery-rails
   rails
+  tzinfo-data
 
 BUNDLED WITH
    1.11.2
