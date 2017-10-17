@@ -14,4 +14,7 @@
     $ bundle
     $ rails s
 
-*Congratulations!*
+# *Congratulations!*
+![IMG1](https://github.com/vitalyp/parallax/blob/master/public/images/readme2.png)
+
+\*:..,:\*
